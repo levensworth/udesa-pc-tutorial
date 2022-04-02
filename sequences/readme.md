@@ -2,6 +2,9 @@
 Para estas consignas, recordar que un string es una lista de caracteres. 
 Es importante pensar en módularizar el comportamiento, descoponer cada enuncia en acciones más pequeñas y atómicas que podamos resolver facilmente.
 
+### Atención:
+Antes de resolver lso ejercicios a continuación, primero es aconsejable leer `summary.md` para refrescar el conocimiento sobre el manejo de listas. Luego comenzar por `warmup.md`, el cual es un set de ejercicios más sencillos con el objetivo de ampliar su panorama sobre listas.
+
 1. dado un patrón de string, devolver la representación del patrón. 
 Ejemplo: 'a4h ok3' representa el string: "aaaah okkk" 
 el uso de la función sería:
