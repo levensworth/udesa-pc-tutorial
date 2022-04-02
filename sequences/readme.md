@@ -5,9 +5,10 @@ Es importante pensar en módularizar el comportamiento, descoponer cada enuncia 
 1. dado un patrón de string, devolver la representación del patrón. 
 Ejemplo: 'a4h ok3' representa el string: "aaaah okkk" 
 el uso de la función sería:
->>> decode_str('a4h ok3') 
+```
+>>>decode_str('a4h ok3') 
 >>> "aaaah okkk" 
-
+```
 
 2.  Escribir una función que reciba un patrón y un string y retorne si el string cumple con el patrón. 
 El patrón debe estar compuesto por:
@@ -17,10 +18,11 @@ letras, numeros, espacios, '?', o '*'.
 
 
 ejemplo:
+```
 is_match('ho?a', 'hola') devuelve True
 is_match('ho?a', 'hoja') devuelve True
 is_match('ho?a', 'toca') devuelve False
 is_match('ho?a', 'hol') devuelve False
 is_match('ho*', 'hola como estas todo esto es valido') devuelve True
 
-
+```
