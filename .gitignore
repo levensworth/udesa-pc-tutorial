@@ -148,3 +148,4 @@ cython_debug/
 accounts.txt
 *.db
 trash.py
+.DS_store
