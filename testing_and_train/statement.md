@@ -20,7 +20,7 @@ Ejemplo:
 
 2. Escribir una función `counter(txt)` que reciba un string y retorne una lista que contenga la frecuencia de cada palabra en el string. Contemplar que el string es una cadena de palabras separada por espacios. 
    el resultado debe tener el siguiente formato: `[('palabra', 20), ('segunda', 4)...]`
-3. Escribir una función que dado una lista retore la lista invertida.
+3. Escribir una función que dado una lista retore la lista invertida (no un duplicado).
 4. Escribir una funcion `fibonacci(n)` tal que reciba un indice y retorne el N-ésimo termino
    de la secuencia Fibonacci.
 5. Resuelva el problema anterior utilizando diccionarios.
