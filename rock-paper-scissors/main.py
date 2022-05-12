@@ -4,7 +4,7 @@
 # p = papel
 
 import random
-WINING_SCORE = 3
+WINNING_SCORE = 3
 
 def get_user_name() -> str:
     user_name = input('What should I call you? > ')    
@@ -48,7 +48,7 @@ def compute_round_winner_name(user_1_name: str, option_1: str,  user_2_name: str
 
 
 def is_winner(score_1, score_2) -> bool:
-    if score_1 >= WINING_SCORE or score_2 >= WINING_SCORE:
+    if score_1 >= WINNING_SCORE or score_2 >= WINNING_SCORE:
         return True
     return False
 
