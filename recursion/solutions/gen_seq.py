@@ -20,13 +20,11 @@ def generate_possible_sequences(txt: str, k: int) -> List[str]:
     # caso de emergencia
     if k == 0:
         return []
-
     # caso base
     if k == 1:
         return list(txt)
 
     possible_sub_seq = generate_possible_sequences(txt, k-1)
-
     new_seq = []
     for letter in txt:
         for seq in possible_sub_seq:
@@ -34,5 +32,3 @@ def generate_possible_sequences(txt: str, k: int) -> List[str]:
     
     return new_seq
 
-
-print(generate_possible_sequences('abc', 2))
