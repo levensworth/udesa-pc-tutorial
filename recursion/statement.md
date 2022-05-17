@@ -24,5 +24,6 @@
     
 ```
 
+6. un mapa se puede entender como una matriz de NxM la cual se representa como una lista de listas en el lenguaje. Dado un mapa, donde los valores de cada celda serán 0 si no hay nada y 1 si hay pared, implementar una función `are_connected(map, from_point, to_point)` que reciba un mapa y 2 coordenadas y retorne si existe un camino libre que conecte los dos.
 
 
