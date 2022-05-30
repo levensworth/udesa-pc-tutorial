@@ -126,7 +126,7 @@ def is_available(visited, mapa, point):
 # Descomentar para ver el uso.
 
 # mapa = [
-#     [0, 0, 0, 0, 0],
+#     [0, 0, 1, 0, 0],
 #     [0, 0, 1, 0, 0],
 #     [0, 0, 1, 0, 0],
 #     [0, 0, 1, 0, 0]
