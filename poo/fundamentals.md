@@ -52,3 +52,42 @@ Este argumetno es una referencia a la propia instancia, es una forma que tenemos
 a otros elementos del objeto como lo son variables y otras funciones.
 
 
+veamos como puede ser utilizado:
+```
+class MyClass:
+    def method_1(self):
+        self.attribute_1 = 10
+
+    def method_2(self):
+        return self.attribute_1 + 20
+```
+
+En este caso, cuando alguien llame al método `method_1`, lo que hace es crear un estado (o modificarlo en caso que ya existiera) del objeto
+llamado `attribute_1` asignandole un valor. Piensen en esto como modificar una clave de un diccionario, cuando el valor existe lo reemplazamos 
+y si no existía lo creamos. Luego, en el `method_2` hacemos uso de dicho estado para justamente devolver un valor, notese que si el usuario no invoca al `method_1` entonces `attribute_1` no existe, por ende si no se invoca a `method_1` antes de llamar a `method_2` el interprete
+lanza un error.
+
+
+## Constructores:
+Cuando creamos una instancia de una clase  (llamamos al nombre de la clase como: `MyClass()`) ocurre una serie de pasos internamente, los 
+cuales intentaremos entender ahora mismo.
+
+Si seguimos con el ejemplo anterior, veamos que ocurre cuando queremos generar una instancia de la clase.
+
+```
+instancia = MyClass()
+```
+Al invocar a la clase, lo que ocurre es la siguiente secuencia de pasos:
+- Python entiende que queremos crear un nuevo objeto con la definición de la clase `MyClass`
+- El interprete busca un metodo llamado `__init__` dentro de la clase.
+- Al no encontrarlo, busca en su padre. Como no especificamos ningún padre entonces tiene el ancenstro universal llamado `object`
+- encuentra el método `__init__` dentro de `object` y lo invoca.
+- Este método devuelve por defecto (sin tener que poner el `return`) una nueva instancia de dicho objeto.
+
+En esta mirada, nos olvidamos de ciertos detalles muy específicos de implementación que no vienen al caso y nos concentramos en entender
+los puntos principales de la secuencia.
+
+Los constructores, son siempre el método llamao `__init__`, si la clase no lo define se utiliza por default el de su padre o primer ancestro
+que lo defina.
+Este método solo se invoca una vez, a la hora de crear una nueva instancia del objeto. Los utilizamos como punto de partida para inicializar 
+variables o hacer ciertos comportamientos específicos del inicio de un obeto.
