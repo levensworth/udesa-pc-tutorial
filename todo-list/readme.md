@@ -21,7 +21,7 @@ obligado a correr multiples campañas de publicidad en varios canales:
 - Redes sociales (multiples)
 - Canales de televisión
 - Carteles en las principales avenidas de la ciudad
-- Mensajes publicitarios en raios locales
+- Mensajes publicitarios en radios locales
 
 Todos estos esfurerzos deben ser coordinados y llevado a cabo según el cronograma 
 impuesto por los directivos. 
