@@ -48,29 +48,3 @@ de electricidad.
 Realice dicho programa.
 
 
-
-Las TODO list contiene un nombre por el cual
-podemos identificarlas y una descripción 
-que nos ayuda a recordar de que eran. Luego,
-definimos tareas (Task) que deben tener un 
-autor, una descripción, una fecha de finalización
-, una fecha de inicio y un nombre de quien 
-debe realizarla.
-
-
-**Def**: Una TODO list es una lista de tareas 
-que usualmente anotamos para luego realizar.
-
-El sistema debe dejarnos:
--> crear y modificar TODO lists
--> crear y eliminar tareas de una lista
--> mostrar las tareas de una lista en pantalla
-===========
--> mostrar tareas por vencer
--> mostrar tareas por autor
--> mostrar tareas por quien debe realizarla
--> filtrar Todo-list por nombre
--> guardar las listas en archivos
--> cargar listas desde archivos
-
-
