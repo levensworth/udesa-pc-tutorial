@@ -13,7 +13,7 @@
     dada una lista de N caracteres, retorne los posibles strings 
     de logitud `k`.
     **Hint:** La solución, solo requiere dos parámetros `expression` y `k`. Considerar como caso base 
-    `k = 1`, re resultado esperado sería una lista donde cada elemento de `expression` sea un elemento
+    `k = 1`, le resultado esperado sería una lista donde cada elemento de `expression` sea un elemento
     del resultado.
 
 ```
