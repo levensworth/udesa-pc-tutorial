@@ -22,7 +22,7 @@ class Map:
         for row in range(height):
             new_row = []
             for col in range(width):
-                block = Map.EMPTY_BLOCK if random() > 0.2 else Map.BLOCKED_BLOCK
+                block = Map.EMPTY_BLOCK if random() > self.__obstacle_prob else Map.BLOCKED_BLOCK
                 new_row.append(block)
             render.append(new_row)
         
